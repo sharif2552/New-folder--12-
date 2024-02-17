@@ -9,21 +9,26 @@
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <!-- Include custom CSS -->
     <link rel="stylesheet" href="./dist/output.css" />
   </head>
   <body>
     <div>
       <div
-        class="flex justify-center h-screen w-full bg-gradient-to-b from-blue-300 to-blue-400 relative md:hidden "
+        class="flex justify-center h-screen w-full bg-gradient-to-b from-blue-300 to-blue-400 relative mobile_device"
       >
         <div
-          class="flex flex-col justify-between my-20 w-4/5 bg-gray-100 relative border-4 mx-auto rounded-xl"
+          class="flex flex-col   my-20 w-4/5 bg-gray-100 relative border-4 rounded-xl"
         >
-          <div class="imgdiv relative overflow-hidden">
-            <img class="rounded-t-lg" src="./assets/imgback2.png" alt="" />
+          <div class="imgdiv relative overflow-hidden lg:flex lg:items-start">
+<img class="rounded-t-lg  lg:transform lg:rotate-90  lg:h-full lg:m-5 lg:-ml-10 lg:-mr:-96 lg:flex-shrink lg:items-start lg:w-96  lg:-mb-10  " src="./assets/imgback2.png" alt="" />
+
+            
+            
             <div
-              class="btn-container w-full flex flex-row justify-center absolute top-0 transform space-x-4 mt-5"
+              class="btn-container w-full flex flex-row justify-center absolute top-0 transform space-x-4 mt-5  lg:m-0 lg:left-0   lg:w-1/2 lg:flex-wrap lg:-ml-72 lg:flex-col"
             >
+              <!-- Pagination buttons -->
               <button
                 class="bg-sail-300 border rounded-full px-4 py-2 text-white font-bold"
               >
@@ -45,7 +50,7 @@
                 4
               </button>
             </div>
-          <!-- </div>
+            <!-- </div>
 
 
 
@@ -53,16 +58,18 @@
 
           <div> -->
             <div
-              class="m-5 bg-white -mt-24 z-10 md:-mt-96 relative shadow-xl rounded-md pb-10 px-5"
+              class="m-5 bg-white -mt-24 z-10 relative shadow-xl rounded-lg pb-10 px-5 lg:mt-10 lg:pt-10 lg:shadow-white"
             >
+              <!-- Form section -->
               <div
-                class="text-3xl text-blue-800 font-bold text-left mt-10 pt-10 pb-5"
+                class="text-3xl text-blue-800 font-bold text-left mt-10 pt-10 pb-5 "
               >
                 Osnovona
               </div>
               <div class="text-left text-gray-900 font-mono text font-thin">
                 is simply dummy text of the printing
               </div>
+              <!-- Input fields -->
               <div class="input_1 mx-2 mt-5">
                 <div>
                   <div>
@@ -71,7 +78,7 @@
                       class="block text-sm font-medium leading-6 text-gray-900"
                       >Ime</label
                     >
-                    <div class="relative mt-2 rounded-md shadow-sm">
+                    <div class="relative mt-2 rounded-lg shadow-sm">
                       <div
                         class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
                       ></div>
@@ -79,7 +86,7 @@
                         type="text"
                         name="price"
                         id="price"
-                        class="block w-full rounded-md border-0 py-1.5 pl-4 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        class="block w-full rounded-lg border-0 py-1.5 pl-4 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         placeholder="been the industry's"
                       />
                       <div
@@ -97,7 +104,7 @@
                       class="block text-sm font-medium leading-6 text-gray-900"
                       >Email adress</label
                     >
-                    <div class="relative mt-2 rounded-md shadow-sm">
+                    <div class="relative mt-2 rounded-lg shadow-sm">
                       <div
                         class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
                       ></div>
@@ -105,7 +112,7 @@
                         type="text"
                         name="price"
                         id="price"
-                        class="block w-full rounded-md border-0 py-1.5 pl-4 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        class="block w-full rounded-lg border-0 py-1.5 pl-4 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         placeholder="as been the industry's"
                       />
                       <div
@@ -123,7 +130,7 @@
                       class="block text-sm font-medium leading-6 text-gray-900"
                       >broj mobile</label
                     >
-                    <div class="relative mt-2 rounded-md shadow-sm">
+                    <div class="relative mt-2 rounded-lg shadow-sm">
                       <div
                         class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
                       ></div>
@@ -131,7 +138,7 @@
                         type="text"
                         name="price"
                         id="price"
-                        class="block w-full rounded-md border-0 py-1.5 pl-4 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        class="block w-full rounded-lg border-0 py-1.5 pl-4 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                         placeholder="been the industry's"
                       />
                       <div
@@ -143,18 +150,15 @@
               </div>
             </div>
           </div>
+          <!-- Next button -->
           <div class="shadow-lg w-full h-20 flex flex-row-reverse bg-white">
             <button
-              class="bg-blue-900 text-white font-bold my-5 px-9 mr-5 rounded-md"
+              class="bg-blue-900 text-white font-bold my-5 px-9 mr-5 rounded-lg"
             >
               Next
             </button>
           </div>
         </div>
-      </div>
-<div class="hidden md:flex">
-        <!-- Content for medium screens and above -->
-        dfasdfasd
       </div>
     </div>
   </body>
