@@ -46,8 +46,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 35px;
-    margin-bottom: 10px;
+ 
     position: absolute;
     box-shadow: none;
   }
@@ -92,6 +91,10 @@
   }
   /* No specific styles for the form in this breakpoint */
   .text_form {
+  }
+  .next_button{
+    bottom: 0px;
+    position: fixed;
   }
   /* Hide the first next button */
   .next_button_1 {
