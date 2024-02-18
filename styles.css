@@ -25,6 +25,7 @@
     height: 530px;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   /* Styles for the form */
   .text_form {
@@ -33,7 +34,7 @@
     margin-left: 0px;
     margin-top: 20px;
     margin-right: 0px;
-    margin-bottom: 0px;
+        margin-bottom: 20px;
     box-shadow: none;
   }
   /* Styles for the topic name */
@@ -62,7 +63,6 @@
   }
   /* Styles for the first next button */
   .next_button_1 {
-
     margin-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
