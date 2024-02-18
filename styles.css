@@ -1,28 +1,32 @@
 /* CSS */
+
+/* Styles for screens with a minimum width of 768px (typically tablet and desktop devices) */
 @media (min-width: 768px) {
+  /* Styles for the main box */
   .main_box {
     align-items: center;
     display: flex;
-
     justify-content: center;
   }
+  /* Hide the button container */
   .btn-container {
     display: none;
   }
 
+  /* Hide the first image */
   .img_1 {
     display: none;
   }
+  /* Styles for the second image */
   .img_2 {
     display: block;
     padding: 20px;
     background-color: white;
-
     height: 530px;
-
     align-items: center;
     margin-top: 20px;
   }
+  /* Styles for the form */
   .text_form {
     height: 530px;
     width: 30%;
@@ -32,9 +36,11 @@
     margin-bottom: 0px;
     box-shadow: none;
   }
+  /* Styles for the topic name */
   .topic_name {
     margin-top: 0px;
   }
+  /* Additional styles for the main box */
   .main_box {
     display: flex;
     align-items: center;
@@ -42,23 +48,28 @@
     margin-top: 35px;
     margin-bottom: 10px;
     position: absolute;
-
     box-shadow: none;
   }
+  /* Styles for the image container */
   .imgdiv {
     display: flex;
     justify-content: center;
-
     width: 100%;
   }
+  /* Hide the next button */
   .next_button {
     display: none;
   }
+  /* Styles for the first next button */
   .next_button_1 {
-    display: block;
-    right: 0px;
-    margin-left: 60%;
+
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
+  /* Styles for the second button container */
   .buton_container_2 {
     display: flex;
     flex-direction: column;
@@ -67,25 +78,34 @@
   }
 }
 
+/* Styles for screens with a maximum width of 768px (typically mobile devices) */
 @media (max-width: 768px) {
+  /* Show the button container */
   .btn-container {
     display: block;
     display: flex;
   }
 
+  /* Hide the second image */
   .img_2 {
     display: none;
   }
+  /* No specific styles for the form in this breakpoint */
   .text_form {
   }
+  /* Hide the first next button */
   .next_button_1 {
     display: none;
   }
+  /* Hide the second button container */
   .btn-container-2 {
     display: none;
   }
 }
+
+/* Styles for screens with a maximum width of 500px (typically small mobile devices) */
 @media screen and (max-width: 500px) {
+  /* Increase the height of the image container */
   .imgdiv {
     height: 600px;
   }

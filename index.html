@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -10,32 +11,38 @@
       rel="stylesheet"
     />
     <!-- Include custom CSS -->
-    <link rel="stylesheet" href="./dist/output.css" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./dist/output.css" /> <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles.css" /> <!-- Additional custom styles -->
   </head>
   <body>
+    <!-- Main container -->
     <div>
+      <!-- Flex container with gradient background -->
       <div
         class="flex justify-center lg:flex-col h-screen w-full bg-gradient-to-b from-blue-300 to-blue-400 relative mobile_device"
       >
+        <!-- Main box with border and rounded corners -->
         <div
           class="main_box flex flex-col lg:align-middle lg:ml-36 justify-between my-20 w-4/5 bg-gray-100 relative border-4 rounded-xl"
         >
+          <!-- Image container -->
           <div class="imgdiv relative lg:h-4/4 lg:justify-center">
+            <!-- Image 1 -->
             <img
               class="img_1 rounded-t-lg"
               src="./assets/imgback2.png"
               alt=""
             />
             <div>
+              <!-- Image 2 -->
               <img
                 class="img_2 rounded-t-lg"
                 src="./assets/imgback.png"
                 alt=""
               />
+              <!-- Pagination buttons container -->
               <div class="btn-container-2 absolute ml-16 top-20 space-y-4">
-                <!-- Pagination buttons -->
-
+                <!-- Pagination button 1 -->
                 <div class="text-white flex flex-row">
                   <button
                     class="bg-sail-300 border rounded-full py-2 px-5 text-white font-bold mb-2 lg:mb-0"
@@ -47,6 +54,7 @@
                     <div class="text-xl">Homepage</div>
                   </div>
                 </div>
+                <!-- Pagination button 2 -->
                 <div class="text-white flex flex-row">
                   <button
                     class="bg-transparent border rounded-full px-5 py-2 text-white font-bold mb-2 lg:mb-0"
@@ -58,7 +66,7 @@
                     <div class="text-xl">Blog</div>
                   </div>
                 </div>
-
+                <!-- Pagination button 3 -->
                 <div class="text-white flex flex-row">
                   <button
                     class="bg-transparent border rounded-full px-5 py-2 text-white font-bold mb-2 lg:mb-0"
@@ -70,7 +78,7 @@
                     <div class="text-xl">Contact</div>
                   </div>
                 </div>
-
+                <!-- Pagination button 4 -->
                 <div class="text-white flex flex-row font-mono">
                   <button
                     class="bg-transparent border rounded-full px-5 py-2 text-white font-bold mb-2 lg:mb-0"
@@ -85,25 +93,30 @@
               </div>
             </div>
 
+            <!-- Pagination buttons container -->
             <div
               class="btn-container w-full flex flex-row lg:flex-col lg:-mt-2 pt-5 justify-center absolute top-0 transform space-x-4 mt-5 lg:m-0 lg:left-0 lg:w-1/2 lg:-ml-72"
             >
-              <!-- Pagination buttons -->
+              <!-- Pagination button 1 -->
               <button
                 class="bg-sail-300 border rounded-full px-4 py-2 text-white font-bold mb-2 lg:mb-0"
               >
                 1
               </button>
+              <!-- Pagination button 2 -->
               <button
                 class="bg-transparent border rounded-full px-4 py-2 text-white font-bold mb-2 lg:mb-0"
               >
                 2
               </button>
+              <!-- Pagination button 3 -->
               <button
                 class="bg-transparent border rounded-full px-4 py-2 text-white font-bold mb-2 lg:mb-0"
               >
                 3
               </button>
+
+              <!-- Pagination button 4 -->
               <button
                 class="bg-transparent border rounded-full px-4 py-2 text-white font-bold mb-2 lg:mb-0"
               >
@@ -111,26 +124,21 @@
               </button>
             </div>
 
-            <!-- </div>
-
-
-
-
-
-          <div> -->
+            <!-- Form section -->
             <div
-              class="text_form m-5 bg-white -mt-24 z-10 relative shadow-lg lg:shadow-sm rounded-lg pb-10 px-5 lg:mt-10 lg:pt-10 lg:mr-0 lg:shadow-white"
+              class="text_form m-5 bg-white -mt-24 z-10 relative shadow-lg lg:shadow-sm rounded-lg  px-5 lg:mt-10 lg:pt-10 lg:mr-0 lg:shadow-white"
             >
-              <!-- Form section -->
+              <!-- Form title -->
               <div
-                class="topic_name text-3xl text-blue-800 font-bold text-left mt-10 pt-10 pb-5"
+                class="topic_name text-3xl text-blue-900 font-bold text-left mt-5 pt-5 pb-5"
               >
                 Osnovona
               </div>
+              <!-- Form description -->
               <div class="text-left text-gray-900 font-mono text font-thin">
                 This is a temporary text to test the font and the size of the
               </div>
-              <!-- Input fields -->
+              <!-- Input field 1 -->
               <div class="input_1 mx-2 mt-5">
                 <div>
                   <div>
@@ -157,6 +165,7 @@
                   </div>
                 </div>
               </div>
+              <!-- Input field 2 -->
               <div class="input_2 mx-2 mt-5">
                 <div>
                   <div>
@@ -183,6 +192,7 @@
                   </div>
                 </div>
               </div>
+              <!-- Input field 3 -->
               <div class="input_3 mx-2 mt-5">
                 <div>
                   <div>
@@ -209,11 +219,15 @@
                   </div>
                 </div>
               </div>
+              <!-- Next button -->
+              <div class="flex justify-end pb-14">
               <button
                 class="next_button_1 bg-blue-900 text-white font-bold my-5 px-9 mr-5 rounded-lg lg:bottom-0 lg:right-0"
               >
                 Next
-              </button>
+              </button>                
+              </div>
+
             </div>
           </div>
           <!-- Next button -->
