@@ -1,6 +1,9 @@
 /* CSS */
 
 /* Styles for screens with a minimum width of 768px (typically tablet and desktop devices) */
+html {
+  font-family: "Arial", "sans-serif", "Roboto" ;
+}
 @media (min-width: 768px) {
   /* Styles for the main box */
   .main_box {
